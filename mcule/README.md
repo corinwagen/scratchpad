@@ -5,6 +5,8 @@ This is a simple RDKit-based script to find instances of a given functional grou
 Here, it's used to extract molecules containing given functional groups from the Mcule building blocks database.
 (Functional groups are defined in ``matches.txt``.)
 
+This hasn't been extensively validated: the "urea" match is demonstrably wrong (sorry!), so check any results before using them further.
+
 ## Usage
 
 To run these scripts for yourself:
